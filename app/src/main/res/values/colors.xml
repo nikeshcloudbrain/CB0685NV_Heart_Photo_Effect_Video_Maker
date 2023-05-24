@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f61459</color>
+    <color name="colorPrimaryDark">#f61459</color>
+    <color name="colorAccent">#f61459</color>
+    <color name="colorPrimaryLight">#CCf61459</color>
+    <color name="colorBg">#F0F0F0</color>
+
+    <color name="MainColor">#f61459</color>
+    <color name="colorVersion">#585758</color>
+    <color name="fst_ac_text_clr">#656565</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorWhiteLight">#EBEBEB</color>
+    <color name="colorBlack">#707070</color>
+    <color name="colorUnselect">#707070</color>
+    <color name="colorBlackLight">#141414</color>
+    <color name="gallry_folder_txt_clr">#403d3d</color>
+    <color name="bg_orange">#FFF8EE</color>
+    <color name="gallry_line">#ffffff</color>
+    <color name="edit_txt_clr">#706E6E</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="duration_lin_bg">#4d4b4c</color>
+
+    <color name="music_nm_clr">#575757</color>
+    <color name="music_time_mb_clr">#514F50</color>
+    <color name="colorDark">#C9C5C6</color>
+    <color name="black_light_transparent">#99000000</color>
+    <color name="black_light_transparent1">#6f000000</color>
+    <color name="overlay">#aa1c1c1c</color>
+    <color name="windowBackground">#1c1c1c</color>
+    <color name="divider">#333333</color>
+    <color name="textColorPrimary">#fffffb</color>
+
+
+    <color name="colorMain">#f61459</color>
+    <color name="white">#fff</color>
+    <color name="main_theme_color">#f61459</color>
+    <color name="colorBGNativeStart">#4df61459</color>
+    <color name="colorBGNativeEnd">#4df61459</color>
+    <color name="colorAdText">#000</color>
+    <color name="ad_end">#0df61459</color>
+    <color name="black">#000</color>
+    <color name="bg_end">#f61459</color>
+    <color name="colorAdButton">#f61459</color>
+    <color name="colorDialogAdText">#000</color>
+    <color name="background">#CCDFEC</color>
+
+    <color name="bg_start">#f61459</color>
+    <color name="teal_200">#fe303a</color>
+
+    <color name="connect_vpn">#4BB710</color>
+    <color name="grey">#696565</color>
+    <color name="color_text_defaily___">#80000000</color>
+    <color name="blue">#03A9F4</color>
+</resources>

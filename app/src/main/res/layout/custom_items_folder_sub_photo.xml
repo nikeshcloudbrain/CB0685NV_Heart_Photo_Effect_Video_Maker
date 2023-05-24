@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+<!--
+    <androidx.cardview.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="120.0dip"
+        android:layout_margin="5.0dip"
+        app:cardBackgroundColor="@color/transparent"
+        app:cardCornerRadius="10.0dip">-->
+        <com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Utils.RoundCornerLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            app:cornerRadius="@dimen/_8sdp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/rel_unchek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img_subPhotos"
+                    android:layout_width="fill_parent"
+                    android:layout_height="120.0dip"
+                    android:scaleType="centerCrop" />
+
+
+                <RelativeLayout
+                    android:layout_width="17.0dip"
+                    android:layout_height="17.0dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_margin="3.0dip">
+
+                    <ImageView
+                        android:id="@+id/imggrid_item_selected"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:src="@drawable/unselect_circle_photo" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rel_chek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                 <!--   <androidx.cardview.widget.CardView
+                        android:layout_width="fill_parent"
+                        android:layout_height="110.0dip"
+                        android:layout_margin="8.0dip"
+                        app:cardBackgroundColor="@color/colorWhite"
+                        app:cardCornerRadius="8.0dip">-->
+                        <com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Utils.RoundCornerLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="110dp"
+                            android:layout_margin="8.0dip"
+                            app:cornerRadius="@dimen/_8sdp">
+
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/img_subPhotos_select"
+                                android:layout_width="fill_parent"
+                                android:layout_height="110.0dip"
+                                android:layout_centerInParent="true"
+                                android:scaleType="centerCrop" />
+
+                        </RelativeLayout>
+                        </com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Utils.RoundCornerLayout>
+<!--
+                    </androidx.cardview.widget.CardView>
+-->
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_margin="5dp">
+
+                    <ImageView
+                        android:id="@+id/imggrid_item_selected_chek"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:src="@drawable/select_check_photo" />
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        </com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Utils.RoundCornerLayout>
+<!--
+    </androidx.cardview.widget.CardView>
+-->
+
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Utils.SquareRelativeLayoutPhoto xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Utils.RoundCornerLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cornerRadius="@dimen/_10sdp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="@color/colorBg">
+
+                <ImageView
+                    android:id="@+id/imageview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bg_splash_photo" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:src="@drawable/remove_img_photo"
+            android:visibility="visible" />
+
+    </com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Utils.RoundCornerLayout>
+</com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Utils.SquareRelativeLayoutPhoto>

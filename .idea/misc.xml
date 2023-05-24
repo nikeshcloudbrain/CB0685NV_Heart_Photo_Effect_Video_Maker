@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CB0685NV_Heart Photo Effect Video Maker/app/src/main/res/layout/activity_home_photo.xml" value="0.31875" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CB0685NV_Heart Photo Effect Video Maker/app/src/main/res/layout/activity_save_photo.xml" value="0.31875" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CB0685NV_Heart Photo Effect Video Maker/app/src/main/res/layout/activity_tlm_vpn.xml" value="0.3145833333333333" />
+        <entry key="..\:/Nikesh Project/AndroidMainProject/CB0685NV_Heart Photo Effect Video Maker/app/src/main/res/layout/dialog_exit.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/drawable/btn_next_music.xml" value="0.174" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/drawable/drawable_circularprogressbar.xml" value="0.174" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/activity_creation_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/activity_crop_multile_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/activity_crop_single_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/activity_gallery_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/activity_gallery_video_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/activity_home_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/activity_image_edit_photo.xml" value="0.33" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/activity_multiple_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/activity_music_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/activity_progress_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/activity_save_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/activity_single_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/activity_splash_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/activity_start_photo.xml" value="0.33" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/activity_store_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/activity_swipe_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/activity_text_edit_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/activity_tlm_exit.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/activity_tlm_privacy_policy.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/activity_tlm_qureka_inter.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/activity_tlm_skip.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/activity_tlm_vpn.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/activity_video_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/ads_native_large.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/custom_dialog_ads_watch_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/custom_dialog_save_video_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/custom_item_ratio_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/custom_item_selected_images_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/custom_item_text_bgcolor_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/custom_item_text_font_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/custom_items_apps_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/custom_items_audio_folder_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/custom_items_audio_list_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/custom_items_creation_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/custom_items_drag_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/custom_items_effect_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/custom_items_folder_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/custom_items_folder_sub_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/custom_items_fream_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/custom_items_stickers_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/custom_items_store_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/custom_items_transition_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/custom_layout_native_content_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/custom_layout_native_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/custom_toolbar_photo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/dialog_exit.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/dialog_internet.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/dialog_loader.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/dialog_selectvideo.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/exit_layout.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/item_ads.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/item_main.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/native_ad_large.xml" value="0.31875" />
+        <entry key="..\:/Users/nikesh/Desktop/Love Animation App/app/src/main/res/layout/update_dialog_layout.xml" value="0.31875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

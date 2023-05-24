@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+  <!--  <androidx.cardview.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:layout_margin="5dp"
+        app:cardBackgroundColor="@color/colorBg"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="3dp">-->
+        <com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Utils.RoundCornerLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            app:cornerRadius="@dimen/_10sdp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:id="@+id/img_galleryfolder"
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="#454545"
+                android:orientation="horizontal"
+                android:padding="6.0dip">
+
+                <TextView
+                    android:id="@+id/txt_foldername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/poppins_medium"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="TextView"
+                    android:textColor="@color/white"
+                    android:textSize="12.0sp" />
+
+                <TextView
+                    android:id="@+id/txt_folder_imgCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_medium"
+                    android:maxLines="1"
+                    android:layout_weight="0.1"
+                    android:singleLine="true"
+                    android:text="26"
+                    android:textColor="@color/white"
+                    android:textSize="12.0sp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+<!--
+    </androidx.cardview.widget.CardView>
+-->
+        </com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Utils.RoundCornerLayout>
+
+</LinearLayout>

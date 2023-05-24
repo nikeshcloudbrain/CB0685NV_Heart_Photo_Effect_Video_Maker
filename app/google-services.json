@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "808881146413",
+    "project_id": "heart-photo-effect-video-32e59",
+    "storage_bucket": "heart-photo-effect-video-32e59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808881146413:android:89a783acd6ed3c3aae06a4",
+        "android_client_info": {
+          "package_name": "com.cb.videoeditorapp.lovephotoeffectvideomaker.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808881146413-cuut6k2ot6ruaaaecvbmu798jn9hhf73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVBAI_Xy1stGmR64cDLtw9FGxSgXv86Vg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808881146413-cuut6k2ot6ruaaaecvbmu798jn9hhf73.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

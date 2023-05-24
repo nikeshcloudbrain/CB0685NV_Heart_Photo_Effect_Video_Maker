@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="65dp"
+    android:layout_height="65dp"
+    android:layout_marginBottom="7dp"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    android:layout_marginTop="7dp"
+    android:orientation="vertical">
+
+  <ImageView
+      android:id="@+id/ivThumb"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+
+  <ImageView
+      android:id="@+id/selectedtheme_img"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:visibility="gone"
+      android:src="@drawable/select_trans_img_photo"/>
+
+
+</RelativeLayout>

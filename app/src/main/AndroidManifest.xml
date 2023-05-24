@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cb.videoeditorapp.lovephotoeffectvideomaker.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Utils.ApplicationPhoto"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/BaseAppTheme"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:networkSecurityConfig">
+
+        <activity
+            android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Activity.LlpSplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Activity.LlpPrivacyPolicyActivity"
+            android:screenOrientation="portrait" ></activity>
+        <activity
+            android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Activity.LlpVPN_Activity"
+            android:exported="false"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Activity.LlpSkipActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Activity.LlpExitActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Activity.LlpQurekaInterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Activity.LlpStartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Activity.LlpStoreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Activity.LlpGalleryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Activity.LlpGalleryVideoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Activity.LlpImageEditActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Activity.LlpCropMultipleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Activity.LlpSwipeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Activity.LlpProgressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Activity.LlpTextEditActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Activity.LlpMusicActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Activity.LlpSaveActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Activity.LlpCreationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Activity.LlpHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Activity.LlpMultipleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Activity.LlpSingleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Activity.LlpVideoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Activity.LlpCropSingleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="623d73982e721a495bff2810643ec5a579a0af99" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+        <service
+            android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.LlpCheckService"
+            android:enabled="true"
+            android:launchMode="singleInstance"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.cb.videoeditorapp.lovephotoeffectvideomaker.app.Utils.InstallReceiverPhoto"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES">
+
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+
+    </application>
+
+</manifest>
